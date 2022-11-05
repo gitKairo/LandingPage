@@ -4,7 +4,69 @@
     padding: 0px;
 }
 
-/* Index Main Content */
-body {
-    background-color: gray;
+/* HTML Settings */
+html {
+    color: black;
+    font-size: 2em;
+    font-family: arial;
 }
+
+/* Body */
+body {
+    background-color: #333333;
+    color: #EEEEEE;
+    font-family: sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+
+}
+
+/* Index Main Content */
+
+/* Blocks */
+.menu { 
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding-top: 100px; 
+    gap: 80px;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    flex-basis: 400px;
+}
+
+.boxlink {
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+.box1 {
+    background: #888888;
+    color: #333333;
+
+}
+
+.boxtext {
+    text-align: center;
+    
+
+}
+
+.box2 {
+    background: #888888;
+    color: #333333; 
+      
+}
+
+
+
+
