@@ -1,0 +1,10 @@
+/* Browser Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Index Main Content */
+body {
+    background-color: gray;
+}
