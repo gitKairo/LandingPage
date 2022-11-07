@@ -39,6 +39,12 @@ body {
     
 }
 
+.pheader {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 .box {
     flex-basis: 400px;
 }
@@ -65,6 +71,18 @@ body {
     background: #888888;
     color: #333333; 
       
+}
+
+/* Contact Me */
+.contactlinks {
+    text-decoration: none;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.contactp {
+    text-align: center;
+    margin-top: 50px;
 }
 
 
